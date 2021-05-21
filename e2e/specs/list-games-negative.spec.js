@@ -9,11 +9,11 @@ const {random} = require('faker');
 let response;
 
 const game = {
-    "name":random.word(1),
-    "developer":random.word(1),
-    "year": 2022,
-    "type": random.word(1),
-    "console": random.word(1),
+    "name": "Fake name",
+    "developer": "Fake developer",
+    "year": 2100,
+    "type": "Fake type",
+    "console": "Fake console",
     "img": "/"  
     };
 
@@ -24,7 +24,7 @@ const BASE_URL = "https://proyecto-final-qa-back.herokuapp.com/games";
      */
 describe ("When the user wants to list games", () => {
 	before(async ()=>{
-	  response = await axios.get(BASE_URL);
+	    response = await axios.get(BASE_URL);
     });
 
     /**

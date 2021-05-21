@@ -14,7 +14,7 @@ const BASE_URL = "https://proyecto-final-qa-back.herokuapp.com/games";
      */
 describe ("When the user wants to list games", () => {
 	before(async ()=>{
-	  response = await axios.get(BASE_URL);
+	   response = await axios.get(BASE_URL);
     });
 
     /**
