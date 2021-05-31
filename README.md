@@ -29,7 +29,7 @@ If any errors occur while running the tests, re-run the tests.
  List-Games-Negative :
  In this case we test if any of the elements do not exist in the back
 
- Update-Boook :
+ Update-Game :
  In this case we create a Game, then we edit its name and author and finally we clean the back of the information we created.
 
  Update-Game-Negative :
